@@ -1,0 +1,27 @@
+
+body {
+    background-color: rgb(250, 240, 181);
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+}
+
+h1 {
+    text-align: center;
+}
+
+.fokep {
+    min-width: 30%;
+    max-width: 30%;
+    box-shadow: 2px 2px 2px rgb(37, 35, 35);
+    margin: 10px;
+    border: 2px solid grey;
+}
+
+
+img:hover {
+    box-shadow: 2px 2px 4px black;
+}
+
+
+.nagykep {
+    width: 70%;
+}
