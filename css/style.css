@@ -4,24 +4,40 @@ body {
     font-family: Verdana, Arial, Helvetica, sans-serif;
 }
 
+
+
 h1 {
+    text-shadow: 3px 3px 3px rgb(145, 141, 141);
     text-align: center;
+    color: rgb(250, 240, 181);
+    -webkit-text-stroke: 1px rgb(145, 141, 141);
+}
+
+h1:hover {
+    color: grey;
+    transition-duration: 5s;
+    text-shadow: 0 0 1px;
+}
+
+a {
+    text-decoration: none;
 }
 
 .fokep {
     min-width: 30%;
     max-width: 30%;
-    box-shadow: 2px 2px 2px rgb(37, 35, 35);
+    box-shadow: 4px 4px 4px rgb(145, 141, 141);
     margin: 10px;
     border: 2px solid grey;
 }
 
-
 img:hover {
-    box-shadow: 2px 2px 4px black;
+    box-shadow: 2px 2px 6px black;
 }
 
 
 .nagykep {
-    width: 70%;
+    max-width: 100%;
+    max-height: 100%;
+
 }
